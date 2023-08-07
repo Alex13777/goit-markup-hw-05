@@ -466,13 +466,30 @@
             </div>
           </div>
           <div class="form-comment">
-            <label class="form-label" for="user-comment"></label>
+            <label class="form-label" for="user-comment">Comment</label>
             <textarea
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
               class="form-textarea"
             ></textarea>
+          </div>
+          <div class="checkbox-container">
+            <input
+              class="input-checkbox visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
+            />
+            <label for="user-privacy" class="label-checkbox"
+              >I accept the terms and conditions of the
+              <span class="label-span"
+                ><svg width="10" height="8" class="icon-tick">
+                  <use
+                    href="./images/icons.svg#icon-image-24"
+                  ></use></svg></span
+            ></label>
           </div>
         </form>
       </div>
